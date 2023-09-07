@@ -1,0 +1,447 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+header{
+  height: 60px;
+  background-color: black;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  position: sticky;
+  top:0;
+}
+.logo-container{
+  margin-left: 5px;
+  margin-right: 500px;
+}
+.logo{
+  color: white;
+  width: 80px;
+}
+.nav-link{
+  display: flex;
+  gap: 40px;
+}
+.nav-link li{
+  list-style-type: none;
+}
+.nav-link li a{
+  text-decoration: none;
+  color: white;
+}
+.nav-link li a:hover{
+  text-decoration: underline;
+}
+.hero-container{
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  margin-right: 250px;
+  margin-top: 150px;
+  height:30vh;
+}
+.hero-image{
+  margin: 50px;
+  padding-left: 300px;
+  padding-right: 200px;
+}
+.hero-image img{
+  width: 150%;
+  height:100%;
+}
+.grociefy{
+  text-align: center;
+  font-size:40px;
+  margin-top: 127px;
+  margin-bottom: 100px;
+}
+span{
+  border:1px solid black;
+  font-size: 60px;
+  background-color: black;
+  color:white;
+  padding:10px;
+  border-radius:15px;
+  width:400px;
+  height:250px;
+  margin:10px;
+}
+.text h2{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+}
+.text h5{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 80px;
+
+}
+.text p{
+  width: 500px;
+  margin-left: 400px;
+  margin-top: 20px;
+}
+.options1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 60px;
+}
+.box1{
+  width:200px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+  text-align:center;
+  padding: 5px;
+}
+.box2{
+  width: 200px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: white;
+  background-color:black;
+  text-align: center;
+  padding: 5px;
+}
+.box3{
+  width: 200px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  background-color:white;
+  text-align:center;
+  padding: 5px;
+}
+.options2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+.box4{
+  width: 200px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color:white;
+  background-color:black;
+  text-align: center;
+  padding: 5px;
+}
+.box5{
+  width: 200px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  background-color:white;
+  text-align: center;
+  padding:5px;
+}
+.box6{
+  width: 200px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  background-color:white;
+  text-align: center;
+  padding: 5px;
+}
+.box7{
+  width: 200px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color:white;
+  background-color:black;
+  text-align: center;
+  padding: 5px;
+}
+.options3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 60px;
+}
+.box8{
+  width: 200px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  background-color:white;
+  text-align:center;
+  padding:5px;
+}
+.box9{
+  width: 200px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: white;
+  background-color:black;
+  text-align:center;
+  padding:5px;
+}
+.box10{
+  width: 200px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  background-color:white;
+  text-align: center;
+  padding: 5px;
+}
+.items-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 40px;
+}
+#sneakers h2{
+  margin-top: 200px;
+  margin-left: 200px;
+  border: 1px solid black;
+  border-radius: 15px;
+  width:200px;
+  height: 40px;
+  text-align: center;
+  padding: 5px;
+}
+.items1{
+  height: 200px;
+  width: 200px;
+  padding:15px;
+}
+.items1 h6{
+  text-decoration: line-through;
+}
+.items2{
+  height: 200px;
+  width: 200px;
+  padding:15px;
+}
+.items2 h6{
+  text-decoration: line-through;
+}
+.items3{
+  height: 200px;
+  width: 200px;
+  padding:15px;
+}
+.items3 h6{
+  text-decoration: line-through;
+}
+.items4{
+  height: 200px;
+  width: 200px;
+  padding:15px;
+}
+.items4 h6{
+  text-decoration:line-through;
+}
+.items5{
+  height: 200px;
+  width: 200px;
+  padding: 15px;
+}
+.items5 h6{
+  text-decoration: line-through;
+}
+.add{
+  border: 1px solid black;
+  border-radius:5px;
+  background-color: black;
+  color: white;
+  width: 50px;
+  height:30px;
+  text-align: center;
+  margin-top:2px;
+  margin-right:2px;
+}
+.view{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  color:black;
+  width: 100px;
+  height:30px;
+  text-align:center;
+}
+#iphones h2{
+  margin-top: 200px;
+  margin-left: 200px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: black;
+  color:white;
+  width:200px;
+  height: 40px;
+  text-align: center;
+  padding: 5px;
+}
+
+@media screen and (max-width:414px){
+  body{
+    width: 90%;
+  }
+  header{
+    height: 30px;
+    background-color: black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top:0;
+  }
+  .logo-container{
+    margin-left: 5px;
+    margin-right: 300px;
+  }
+  .logo{
+    color: white;
+    width: 40px;
+  }
+  .nav-link{
+    display: none;
+    gap: 40px;
+  }
+  .grociefy{
+    text-align: center;
+    font-size:15px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-left:30px;
+    width:80%;
+  }
+  span{
+    border:1px solid black;
+    font-size: 30px;
+    background-color: black;
+    color:white;
+    padding:10px;
+    border-radius:15px;
+    width:50px;
+    height:40px;
+    margin:5px;
+  }
+  .hero-container{
+    display: none;
+    justify-content: space-around;
+    align-items:center;
+    margin-right: 250px;
+    margin-top: 150px;
+    height:30vh;
+  }
+  .text h5{
+     font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .text p{
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  .options1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 60px;
+  } 
+  .box1{
+    width:200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    text-align:center;
+    padding: 5px;
+  }
+  .box2{
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color:black;
+    text-align: center;
+    padding: 5px;
+  }
+  .box3{
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    background-color:white;
+    text-align:center;
+  }
+  .options2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 60px;
+  }
+  .options3{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 60px;
+  }
+    #sneakers h2{
+      margin-top: 100px;
+      margin-left: 100px;
+      border: 1px solid black;
+      border-radius: 15px;
+      width:200px;
+      height: 40px;
+      text-align: center;
+      padding: 5px;
+  }
+  .items-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 40px;
+  }
+  #iphones h2{
+    margin-top: 150px;
+    margin-left: 100px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: black;
+    color:white;
+    width:200px;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+  }
+
+}
+

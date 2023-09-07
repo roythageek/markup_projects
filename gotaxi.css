@@ -1,0 +1,43 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+body{
+  background-color: black;
+}
+.bg{
+  position:relative;
+  background: black url(images/ilustrasion-scene.png);
+  height:50vh;
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  animation: animate 2s linear infinite;
+  margin-top:120px;
+}
+@keyframes animate{
+  from{
+    background-position: 0 0;
+  }
+  to{
+    background-position: 100% 0;
+  }
+}
+
+.taxi1{
+  margin-top:250px;
+  width:100%;
+}
+.taxi1{
+  animation: anime 5s linear ease-in;
+}
+
+@keyframes anime{
+  from{
+    background-position: 0 0;
+  }
+  to{
+    background-position: 0 100%;
+  }
+}

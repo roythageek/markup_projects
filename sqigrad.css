@@ -1,0 +1,76 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.sqi-container{
+  background:/* linear-gradient( to right rgba(0,2,2,0.5),
+  rgba(0,0,0,0.5)) */url(images/gradient.jpg);
+ background-size: cover;
+ height: 90vh;
+ background-repeat: no-repeat;
+ background-position: center;
+ font-family: 'Ysabeau Office', sans-serif;
+ margin-top: 30px;
+}
+.text-container{
+  color: white;
+  height: 100px;
+  width: 600px;
+  font-size:18px;
+  margin-left: 600px;
+  padding-top: 40px;
+  margin-right: 80px;
+}
+.btn{
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 20px;
+}
+.btn a{
+  text-decoration: none;
+  color: white;
+}
+
+.secyan{
+  height:50vh;
+  background: url(images/gradient.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 80px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.vid-content{
+  padding: 0 50px;
+}
+
+iframe{
+  border-radius: 10px;
+}
+
+.text-content{
+  color: white;
+  font-size: 15px;
+  font-family:'Ysabeau Office', sans-serif ;
+}
+.text-content h2{
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.para{
+  font-size:20px; 
+}
+
